@@ -41,6 +41,7 @@ function App() {
                 <Biblioteca />
               </ProtectedRoute>} />
             <Route path="/biblioteca/user/:userId/detalhes/:id" element={<Detalhes />} />
+            <Route path="/guias" element={<ListaGuias />} />
             <Route path="/ranking" element={<Ranking />} />
             <Route path="/jogos" element={<Jogos />} />
             <Route path="/challenge" element={<Challenge />} />
